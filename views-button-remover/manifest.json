@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Twitter Views Button Remover",
+    "version": "1.0.0",
+    "description": "Removes the views button on timeline tweets.",
+    "author": "CominAtYou",
+
+    "content_scripts": [
+        {
+            "matches": ["https://twitter.com/*", "https://mobile.twitter.com/*"],
+            "js": ["main.js"]
+        }
+    ]
+}
