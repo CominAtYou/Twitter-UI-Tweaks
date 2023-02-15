@@ -12,10 +12,10 @@ A Chrome extension that removes the 'Twitter Blue' button from the Twitter sideb
     - If you downloaded the source as a ZIP, be sure to extract it.
 ### Chrome (and Edge, Opera, etc.)
 2. Navigate to `chrome://extensions`, and enable developer mode.
-3. Click "Load unpacked" and select the folder that you cloned/extracted.
+3. Click "Load unpacked" and find the folder you cloned/extracted. Inside it, select the folder for this extension.
 ### Firefox
 2. Head to `about:debugging`, and click "This Firefox" in the sidebar.
-3. Select "Load Temporary Add-on", and select the `manifest.json` file in the folder you cloned/extracted.
+3. Select "Load Temporary Add-on", and locate the folder you cloned/extracted. Inside it, open this folder, and select the `manifest.json` file.
 
 
 ## How does it work?

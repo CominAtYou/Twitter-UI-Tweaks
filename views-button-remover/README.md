@@ -4,17 +4,17 @@ Twitter's view button really shouldn't be where it is from a UX design perspecti
 Tweet views are still listed on the Tweet details page.
 
 ## How to Install
-Also available as a userscript for TamperMonkey - get it [here](https://gist.github.com/CominAtYou/7c7edca78183cc0eedf1d09a4c0f011f).
+Also available as a userscript for TamperMonkey - get it [here](https://gist.github.com/CominAtYou/687ddb69bb9ba6691a2906158b775384).
 
 ## Installation
 1. Download or clone the source.
     - If you downloaded the source as a ZIP, be sure to extract it.
 ### Chrome (and Edge, Opera, etc.)
 2. Navigate to `chrome://extensions`, and enable developer mode.
-3. Click "Load unpacked" and select the folder that you cloned/extracted.
+3. Click "Load unpacked" and find the folder you cloned/extracted. Inside it, select the folder for this extension.
 ### Firefox
 2. Head to `about:debugging`, and click "This Firefox" in the sidebar.
-3. Select "Load Temporary Add-on", and select the `manifest.json` file in the folder you cloned/extracted.
+3. Select "Load Temporary Add-on", and locate the folder you cloned/extracted. Inside it, open this folder, and select the `manifest.json` file.
 
 
 Done!
