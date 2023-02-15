@@ -9,6 +9,9 @@ Changes the Twitter font to Segoe UI Variable Display. Useful for those who like
 ### Sidebar Blue Remover
 Twitter's sidebar used to have a very useful lists button, but it was unfortunately replaced with a button for Twitter Blue. Replaces the Twitter Blue button with the old lists button.
 
+### Tweet Text Enlarger
+Enlarges the Tweet text on the Tweet details page back to its previous larger, more-readable text size.
+
 ### Views Button Remover
 Removes the view button from Tweets in your timeline, stopping accidental clicks due to a very awkwardly-placed button and just making your timeline look better overall.
 
