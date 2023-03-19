@@ -126,8 +126,8 @@ function main() {
 
 // Add a listener to wait for the sidebar to load
 const observer = new MutationObserver((mutationList, observer) => {
-    const SIDEBAR_CLASS_LIST = "css-1dbjc4n r-1pi2tsx r-1wtj0ep r-1rnoaur r-1e081e0 r-o96wvk".split(" ");
-    const SMALL_SIDEBAR_CLASS_LIST = "css-1dbjc4n r-1pi2tsx r-1wtj0ep r-1rnoaur r-1e081e0 r-f9dfq4".split(" ");
+    const SIDEBAR_CLASS_LIST = "css-1dbjc4n r-1pi2tsx r-1wtj0ep r-1rnoaur r-1pn2ns4 r-o96wvk".split(" ");
+    const SMALL_SIDEBAR_CLASS_LIST = "css-1dbjc4n r-1pi2tsx r-1wtj0ep r-1rnoaur r-1pn2ns4 r-f9dfq4".split(" ");
     const TINY_SIDEBAR_CLASS_LIST = "css-1dbjc4n r-1pi2tsx r-1wtj0ep r-1rnoaur r-s1qlax r-1gymjhz".split(" ");
 
     for (const mutation of mutationList) {
@@ -139,6 +139,7 @@ const observer = new MutationObserver((mutationList, observer) => {
 
             const classList = Array.from(node.classList);
             if (arrayEquals(classList, SIDEBAR_CLASS_LIST) || arrayEquals(classList, SMALL_SIDEBAR_CLASS_LIST) || arrayEquals(classList, TINY_SIDEBAR_CLASS_LIST)) {
+                console.log("Found sidebar!");
                 observer.disconnect();
 
                 // The Blue button gets restored when the system theme is changed
