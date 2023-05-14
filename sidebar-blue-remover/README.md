@@ -1,5 +1,5 @@
 # Twitter Sidebar Blue Remover
-A Chrome extension that removes the 'Twitter Blue' button from the Twitter sidebar and replaces it with the lists button.
+A Chrome extension that removes the 'Twitter Blue' button from the Twitter sidebar.
 
 ![A screenshot of the Twitter explore page.](https://i.imgur.com/gYIvujT.png)
 
