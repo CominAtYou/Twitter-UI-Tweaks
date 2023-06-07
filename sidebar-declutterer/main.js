@@ -12,26 +12,11 @@ function arrayEquals(a, b) {
 function main() {
     /** @type { Element[] } */
     const elements = Array.prototype.slice.call(document.getElementsByClassName("r-1habvwh"));
+    const verifiedButton = elements.find(elem => elem.getAttribute("href") === "/i/verified-choose");
+    const communityNotesButton = elements.find(elem => elem.hasAttribute("href") && elem.getAttribute("href") === "/i/communitynotes");
 
-    // lists are /username/lists instead of /i/lists, so this is used to just get the username of the current user
-    const profileButton = elements.find(elem => elem.hasAttribute("href") && elem.getAttribute("data-testid") === "AppTabBar_Profile_Link");
-    const twitterBlueButton = elements.find(elem => elem.hasAttribute("href") && elem.getAttribute("href") === "/i/twitter_blue_sign_up");
-
-    if (!twitterBlueButton) {
-        console.error("Failed to find Twitter Blue button");
-        return;
-    }
-
-    if (!profileButton) {
-        console.error("Failed to find profile button");
-        return;
-    }
-
-    // remove and re-add the element to shake off the onclick listeners
-    const blueButtonParent = twitterBlueButton.parentElement;
-    const blueButtonHTML = twitterBlueButton.outerHTML;
-    const index = Array.prototype.indexOf.call(blueButtonParent.children, twitterBlueButton);
-    blueButtonParent.removeChild(twitterBlueButton);
+    verifiedButton.parentElement.removeChild(verifiedButton);
+    if (communityNotesButton) communityNotesButton.parentElement.removeChild(communityNotesButton); // community notes button only appears for community notes members
 }
 
 // Add a listener to wait for the sidebar to load
