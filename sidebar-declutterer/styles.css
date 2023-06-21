@@ -1,3 +1,7 @@
-a[href="/i/verified-choose"], a[href="/i/communitynotes"], #react-root > div > div > div.css-1dbjc4n.r-18u37iz.r-13qz1uu.r-417010 > main > div > div > div > div.css-1dbjc4n.r-aqfbo4.r-zso239.r-1hycxz > div > div.css-1dbjc4n.r-gtdqiz.r-1hycxz > div > div > div > div:nth-child(3):has(a[href="/i/verified-choose"]) {
+a[href="/i/verified-choose"],
+a[href="/i/communitynotes"],
+div.css-1dbjc4n.r-x572qd.r-1d6w8o1.r-1867qdf.r-1phboty.r-rs99b7.r-1ifxtd0.r-1udh08x:has(a[href="/i/verified-choose"]), /* light */
+div.css-1dbjc4n.r-g6ijar.r-74htps.r-1867qdf.r-1phboty.r-rs99b7.r-1ifxtd0.r-1udh08x:has(a[href="/i/verified-choose"]), /* dim */
+div.css-1dbjc4n.r-g2wdr4.r-14wv3jr.r-1867qdf.r-1phboty.r-rs99b7.r-1ifxtd0.r-1udh08x:has(a[href="/i/verified-choose"]) /* lights out */ {
     display: none !important;
 }
