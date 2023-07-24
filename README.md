@@ -10,7 +10,7 @@ Restores Twitter's previous bird icon, before it was switched to an "X" sourced 
 Changes the Twitter font to Segoe UI Variable Display. Useful for those who like the new Windows 11 font, or just dislike Twitter's "Chirp" font.
 
 ### Sidebar Blue Remover
-Twitter's sidebar used to have a very useful lists button, but it was unfortunately replaced with a button for Twitter Blue. Replaces the Twitter Blue button with the old lists button.
+Removes the "Verified" button from the sidebar.
 
 ### Tweet Text Enlarger
 Enlarges the Tweet text on the Tweet details page back to its previous larger, more-readable text size.
