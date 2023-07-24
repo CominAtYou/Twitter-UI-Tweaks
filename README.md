@@ -4,7 +4,7 @@ A monorepo of browser extensions for reversing some of the UI changes made to Tw
 ## Current Scripts
 
 ### Bird Icon Restorer
-Restores Twitter's previous bird icon, before it was switched to an "X" sourced from a free webfont.
+Restores Twitter's previous bird icon, before it was switched to an "X" sourced from a free webfont. Switches back the icon that shows up in your browser tab, the splash screen, and above the sidebar.
 
 ### Font Switcher
 Changes the Twitter font to Segoe UI Variable Display. Useful for those who like the new Windows 11 font, or just dislike Twitter's "Chirp" font.
