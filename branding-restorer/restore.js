@@ -4,6 +4,7 @@ document.querySelector('link[rel="shortcut icon"]').setAttribute("href", "data:i
 // Wait for title to be created
 const observer = new MutationObserver(() => {
     if (document.querySelector('title')) {
+        document.title = "Twitter";
         observer.disconnect();
 
         new MutationObserver(() => {
