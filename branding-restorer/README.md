@@ -1,5 +1,5 @@
-# Bird Icon Restorer
-Restores the previous bird icon on Twitter.
+# Branding Restorer
+Restores the former Twitter branding on Twitter.
 
 ## Installation
 Also available as a TamperMonkey UserScript - get it [here](https://gist.github.com/CominAtYou/1bf3b665cfbebe237c377310e1e96c7c).

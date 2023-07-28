@@ -1,7 +1,7 @@
 ﻿{
-    "name": "Twitter Bird Icon Restorer",
-    "description": "Restore the bird icon on Twitter's website.",
-    "version": "1.0.0",
+    "name": "Twitter Branding Restorer",
+    "description": "Restore the former Twitter branding on Twitter.",
+    "version": "1.0.1",
     "manifest_version": 3,
     "content_scripts": [
         {
@@ -9,7 +9,7 @@
                 "icon.css"
             ],
             "js": [
-                "icon.js"
+                "restore.js"
             ],
             "matches": [
                 "https://twitter.com/*"
