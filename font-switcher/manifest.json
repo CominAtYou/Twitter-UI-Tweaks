@@ -1,6 +1,6 @@
 {
-    "name": "Segoe UI Variable Font Switcher",
-    "description": "Switch the font on websites to Segoe UI Variable Display",
+    "name": "Twitter Font Switcher",
+    "description": "Switch the font on Twitter to Segoe UI Variable Display",
     "version": "1.4.2",
     "manifest_version": 3,
     "content_scripts": [

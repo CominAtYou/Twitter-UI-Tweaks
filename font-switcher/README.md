@@ -1,10 +1,10 @@
-# Segoe UI Variable Font Switcher
+# Twitter Font Switcher
 Do you dislike the default Windows font, or hate Twitter's new 'Chirp' font?
 
 Introducing... this extension!
 
 ## What does it do?
-It vastly improves the font across Twitter! Take a look for yourself:
+It vastly improves the font across Twitter, by switching the font to Windows 11's new "Segoe UI Variable"! Take a look for yourself:
 
 ![Screenshot of the Twitter home page](https://i.imgur.com/dyNqrJ2.png)
 
