@@ -1,7 +1,7 @@
 ﻿{
     "name": "Twitter Branding Restorer",
     "description": "Restore the former Twitter branding on Twitter.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "manifest_version": 3,
     "content_scripts": [
         {

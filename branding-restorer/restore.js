@@ -11,6 +11,9 @@ const observer = new MutationObserver(() => {
             if (document.title.endsWith("X")) {
                 document.title = document.title.slice(0, -1) + "Twitter";
             }
+            else if (/^.{1,50} on X:/.test(document.title)) {
+                document.title = document.title.replace("on X:", "on Twitter:");
+            }
         }).observe(document.querySelector('title'), {
             subtree: true,
             characterData: true,
