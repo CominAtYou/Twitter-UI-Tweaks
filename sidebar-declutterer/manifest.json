@@ -1,6 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Twitter Sidebar Declutterer",
+    "description": "Removes buttons and modals encouraging you to subscribe to Blue.",
     "version": "1.1.0",
 
     "content_scripts": [
