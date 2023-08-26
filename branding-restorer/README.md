@@ -12,5 +12,3 @@ Also available as a TamperMonkey UserScript - get it [here](https://gist.github.
 ### Firefox
 2. Head to `about:debugging`, and click "This Firefox" in the sidebar.
 3. Select "Load Temporary Add-on", and locate the folder you cloned/extracted. Inside it, open this folder, and select the `manifest.json` file.
-
-
