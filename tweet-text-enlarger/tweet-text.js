@@ -6,11 +6,7 @@ new MutationObserver((_mutationList, _observer) => {
     if (!window.location.href.includes("/status/")) return; // do not run when a timeline is being viewed
     document.querySelectorAll(`${LIGHT_CLASS_LIST}, ${DIM_CLASS_LIST}, ${LIGHTS_OUT_CLASS_LIST}`).forEach(e => {
         // do not run for comments in a thread, or children of quote tweets
-        if (
-            (e.parentElement.classList.length === 1 && e.parentElement.classList.contains("css-175oi2r")) ||
-            e.closest("div.css-175oi2r.r-adacv.r-1udh08x.r-1kqtdi0.r-1867qdf.r-rs99b7.r-o7ynqc.r-6416eg.r-1ny4l3l.r-1loqt21") ||
-            e.closest("div.css-175oi2r.r-16y2uox.r-1wbh5a2.r-z5qs1h.r-1777fci.r-1e081e0.r-ttdzmv.r-kzbkwu")
-        ) return;
+        if (e.closest("div.css-175oi2r.r-adacv.r-1udh08x.r-1ets6dv.r-1867qdf.r-rs99b7.r-o7ynqc.r-6416eg.r-1ny4l3l.r-1loqt21, div.css-175oi2r.r-1iusvr4.r-16y2uox.r-1777fci.r-kzbkwu")) return;
         e.classList.remove(".r-1inkyih");
         e.querySelector("span").style.lineHeight = "28px";
         e.style.fontSize = "23px";
