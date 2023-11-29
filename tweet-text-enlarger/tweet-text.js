@@ -9,7 +9,6 @@ const IGNORED_PARENTS_CLASSLIST = [
 ];
 
 new MutationObserver((_mutationList, _observer) => {
-    if (!window.location.href.includes("/status/")) return; // do not run when a timeline is being viewed
     document.querySelectorAll(`${LIGHT_CLASS_LIST}, ${DIM_CLASS_LIST}, ${LIGHTS_OUT_CLASS_LIST}`).forEach(e => {
         // do not run for comments in a thread, or children of quote tweets
         if (e.closest(IGNORED_PARENTS_CLASSLIST.join(", "))) return;
