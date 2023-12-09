@@ -1,5 +1,5 @@
 # Twitter Sidebar Declutterer
-A Chrome extension that removes the 'Verified' and 'Community Notes' button from the Twitter sidebar.
+A Chrome extension that removes the 'Verified', 'Grok', and 'Community Notes' button from the Twitter sidebar.
 
 ![A screenshot of the Twitter explore page.](https://i.imgur.com/gYIvujT.png)
 

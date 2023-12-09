@@ -1,5 +1,7 @@
 /* left sidebar blue button and community notes button */
-nav.css-175oi2r.r-eqz5dr.r-1habvwh > a[href="/i/verified-choose"], nav.css-175oi2r.r-eqz5dr.r-1habvwh > a[href="/i/communitynotes"] {
+nav.css-175oi2r.r-eqz5dr.r-1habvwh > a[href="/i/verified-choose"],
+nav.css-175oi2r.r-eqz5dr.r-1habvwh > a[href="/i/communitynotes"],
+nav.css-175oi2r.r-eqz5dr.r-1habvwh > a[href="/i/grok"] {
     display: none !important;
 }
 
