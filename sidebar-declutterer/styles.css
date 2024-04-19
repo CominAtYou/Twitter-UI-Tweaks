@@ -1,11 +1,11 @@
-/* left sidebar blue button and community notes button */
+/* left sidebar premium, community notes, and grok buttons */
 nav.css-175oi2r.r-eqz5dr.r-1habvwh > a[href="/i/premium_sign_up"],
 nav.css-175oi2r.r-eqz5dr.r-1habvwh > a[href="/i/communitynotes"],
 nav.css-175oi2r.r-eqz5dr.r-1habvwh > a[href="/i/grok"] {
     display: none !important;
 }
 
-/* right sidebar blue advertisement */
+/* right sidebar premium advertisement */
 div.css-175oi2r.r-14lw9ot.r-jxzhtn.r-1867qdf.r-1phboty.r-rs99b7.r-1ifxtd0.r-1udh08x:has(a[href="/i/verified-choose"]), /* light */
 div.css-175oi2r.r-yfoy6g.r-18bvks7.r-1867qdf.r-1phboty.r-rs99b7.r-1ifxtd0.r-1udh08x:has(a[href="/i/verified-choose"]), /* dim */
 div.css-175oi2r.r-kemksi.r-1kqtdi0.r-1867qdf.r-1phboty.r-rs99b7.r-1ifxtd0.r-1udh08x:has(a[href="/i/verified-choose"]) /* lights out */ {
