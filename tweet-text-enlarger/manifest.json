@@ -1,13 +1,17 @@
 {
     "manifest_version": 3,
     "name": "Twitter Tweet Text Enlarger",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Restores the previous text size for Tweets.",
     "author": "CominAtYou",
 
     "content_scripts": [
         {
-            "matches": ["https://twitter.com/*", "https://mobile.twitter.com/*"],
+            "matches": [
+                "https://twitter.com/*",
+                "https://x.com/*",
+                "https://mobile.twitter.com/*"
+            ],
             "js": ["tweet-text.js"]
         }
     ]

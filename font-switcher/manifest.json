@@ -1,7 +1,7 @@
 {
     "name": "Twitter Font Switcher",
     "description": "Switch the font on Twitter to Segoe UI Variable Display",
-    "version": "1.4.2",
+    "version": "1.4.3",
     "manifest_version": 3,
     "content_scripts": [
         {
@@ -10,7 +10,10 @@
                 "ChirpFont.css"
             ],
             "matches": [
-                "https://twitter.com/*"
+                "https://twitter.com/*",
+                "https://x.com/*",
+                "https://mobile.twitter.com/*",
+                "https://mobile.x.com/*"
             ]
         }
     ]
